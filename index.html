@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu Methods</title>
+  <script src="menuitem.js"></script>
+</head>
+<body>
+    <center>
+  <div>
+    <h1>RESTAURANT</h1>
+  </div>
+  <div>
+    <form id="addItemForm">
+      <input type="number" id="snoInput" placeholder="Enter a sno"><br>
+      <input type="text" id="nameInput" placeholder="Enter item name"><br>
+      <input type="text" id="descriptionInput" placeholder="Enter the description of the item"><br>
+      <input type="number" id="priceInput" placeholder="Enter price of the menu"><br>
+      <button type="button" onclick="addItem()">Add Menu Item</button>
+    </form>
+  </div>
+  <br>
+  <br>
+
+  <div>
+    <form id="editItemForm">
+      <input type="number" id="editIndexInput" placeholder="Enter the index of the item to edit"><br>
+      <input type="text" id="editNameInput" placeholder="Enter new item name"><br>
+      <input type="text" id="editDescriptionInput" placeholder="Enter new description of the item"><br>
+      <input type="number" id="editPriceInput" placeholder="Enter new price of the menu"><br>
+      <button type="button" onclick="editMenu()">Edit Menu Item</button>
+    </form>
+  </div>
+  <br>
+  <br><br>
+
+  <div>
+    <form id="deleteItemForm">
+      <input type="number" id="deleteIndexInput" placeholder="Enter the index of the item to delete"><br>
+      <button type="button" onclick="deleteMenu()">Delete Menu Item</button>
+    </form>
+  </div>
+
+  <div>
+    <button onclick="getMenuDetails()">Get Menu Details</button>
+  </div>
+
+  <div id="menuItemsContainer">
+  </div>
+</center>
+</body>
+</html>
