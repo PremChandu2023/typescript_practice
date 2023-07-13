@@ -1,6 +1,6 @@
 class declareperso {
    company : 'logisoft'
-   name : 'prem chandu'
+   name : 'prem chandu  ok '
     designation : 'trainee'
 }
 
