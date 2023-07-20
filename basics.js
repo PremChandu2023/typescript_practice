@@ -3,6 +3,6 @@ var declareperson = /** @class */ (function () {
         this.name = name;
         this.name = chandu;
     }
-    return declareperson;
+    return declareperson12321;
 }());
 var declareobj = new person("prem");
