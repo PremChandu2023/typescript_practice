@@ -14,4 +14,4 @@ function calculateTax(count:number,maxInsurance:number,damageAmount:number)
     }
  
 }
-calculateTax(1,8,10)
+calculateTax(1,8,10);
